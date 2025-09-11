@@ -26,9 +26,9 @@ body {
 }
 
 .logo-container {
-    margin: 0 auto 3rem;
-    width: 350px;
-    height: 350px;
+    margin: 0 auto 1.5rem; /* Reducido para acercar al texto */
+    width: 385px; /* Aumentado un 5% (367.5px -> 385px) */
+    height: 385px; /* Aumentado un 5% */
     position: relative;
     display: flex;
     justify-content: center;
@@ -39,12 +39,12 @@ body {
 .logo {
     width: 100%;
     height: auto;
-    max-width: 350px;
+    max-width: 385px; /* Aumentado un 5% */
     filter: drop-shadow(0 10px 20px rgba(43, 177, 152, 0.2));
 }
 
 .message {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem; /* Reducido para acercar al logo */
     position: relative;
 }
 
@@ -201,12 +201,13 @@ p {
 
 @media (max-width: 768px) {
     .logo-container {
-        width: 350px;
-        height: 350px;
+        width: 320px; /* Ajustado para móviles */
+        height: 320px;
+        margin: 0 auto 1rem; /* Más cerca en móviles */
     }
     
     .logo {
-        max-width: 350px;
+        max-width: 320px; /* Ajustado para móviles */
     }
     
     h1 {
